@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i&display=swap);
 
 
@@ -8,20 +9,20 @@ body {
   font-family: Rubik;
 }
 .display-1 {
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 1rem;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 2rem;
   font-display: swap;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 3.2rem;
 }
 .display-2 {
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-display: swap;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 2.56rem;
+  font-size: 2.88rem;
 }
 .display-4 {
   font-family: 'Alegreya Sans', sans-serif;
@@ -33,11 +34,11 @@ body {
 }
 .display-5 {
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-display: swap;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 3.2rem;
+  font-size: 2.24rem;
 }
 .display-7 {
   font-family: 'Alegreya Sans', sans-serif;
@@ -54,14 +55,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 0.8rem;
-    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.6rem;
+    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 1.28rem;
-    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.44rem;
+    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.8rem;
@@ -69,9 +70,9 @@ body {
     line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.12rem;
+    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -625,12 +626,6 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
-.cid-rZlT8NMsuv .navbar {
-  padding: .2rem 0;
-  background: #434343;
-  transition: none;
-  min-height: 77px;
-}
 .cid-rZlT8NMsuv .navbar-dropdown.bg-color.transparent.opened {
   background: #434343;
 }
@@ -980,7 +975,7 @@ section.lazy-placeholder:after {
   }
   .cid-rZlT8NMsuv .dropdown .dropdown-menu {
     width: 100%;
-    text-align: center;
+    text-align: left;
     position: relative;
     opacity: 0;
     overflow: hidden;
@@ -1031,7 +1026,10 @@ section.lazy-placeholder:after {
 }
 .cid-rZlT8NMsuv .nav-link:hover,
 .cid-rZlT8NMsuv .dropdown-item:hover {
-  color: #149dcc !important;
+  color: #ffffff !important;
+}
+.cid-rZlT8NMsuv a:hover.nav-link {
+  text-decoration: underline;
 }
 .cid-rZlTmtJqR7 {
   padding-top: 135px;
@@ -1049,12 +1047,12 @@ section.lazy-placeholder:after {
   text-align: right;
 }
 .cid-rZqD2QEkMi {
-  padding-top: 45px;
-  padding-bottom: 0px;
+  padding-top: 60px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-rZqD2QEkMi .mbr-text {
-  color: #767676;
+  color: #232323;
 }
 .cid-rZy76qPN1K {
   padding-top: 0px;
@@ -1096,13 +1094,16 @@ section.lazy-placeholder:after {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s;
 }
+.cid-rZy76qPN1K .card-title {
+  color: #5b686b;
+}
 .cid-rZqCKsZaMh {
-  padding-top: 45px;
-  padding-bottom: 0px;
+  padding-top: 60px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-rZqCKsZaMh .mbr-text {
-  color: #767676;
+  color: #232323;
 }
 .cid-rZmbDFQJ2B {
   padding-top: 0px;
@@ -1125,12 +1126,12 @@ section.lazy-placeholder:after {
   height: 100%;
 }
 .cid-rZqCslEpi0 {
-  padding-top: 45px;
-  padding-bottom: 0px;
+  padding-top: 60px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-rZqCslEpi0 .mbr-text {
-  color: #767676;
+  color: #232323;
 }
 .cid-rZmbCbP6UT {
   padding-top: 0px;
@@ -1153,12 +1154,12 @@ section.lazy-placeholder:after {
   height: 100%;
 }
 .cid-rZqC7KQnw0 {
-  padding-top: 45px;
-  padding-bottom: 0px;
+  padding-top: 60px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-rZqC7KQnw0 .mbr-text {
-  color: #767676;
+  color: #232323;
 }
 .cid-rZqr1UaTNn {
   padding-top: 0px;
@@ -1181,12 +1182,12 @@ section.lazy-placeholder:after {
   height: 100%;
 }
 .cid-rZqBP9seA0 {
-  padding-top: 45px;
-  padding-bottom: 0px;
+  padding-top: 60px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-rZqBP9seA0 .mbr-text {
-  color: #767676;
+  color: #232323;
 }
 .cid-rZqzd7pilr {
   padding-top: 0px;
@@ -1208,12 +1209,12 @@ section.lazy-placeholder:after {
   text-align: left;
 }
 .cid-rZqBd3iQVJ {
-  padding-top: 45px;
-  padding-bottom: 0px;
+  padding-top: 60px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-rZqBd3iQVJ .mbr-text {
-  color: #767676;
+  color: #232323;
 }
 .cid-rZqAh93eKZ {
   padding-top: 0px;
@@ -1638,7 +1639,7 @@ section.lazy-placeholder:after {
 }
 .cid-rZxFUuMGfL .nav-link:hover,
 .cid-rZxFUuMGfL .dropdown-item:hover {
-  color: #149dcc !important;
+  color: #ffffff !important;
 }
 .cid-rZxFUwk1h8 {
   padding-top: 30px;
@@ -2079,7 +2080,7 @@ section.lazy-placeholder:after {
 }
 .cid-s01nCESWZ3 .nav-link:hover,
 .cid-s01nCESWZ3 .dropdown-item:hover {
-  color: #149dcc !important;
+  color: #ffffff !important;
 }
 .cid-s01nCGbGyJ {
   padding-top: 30px;
