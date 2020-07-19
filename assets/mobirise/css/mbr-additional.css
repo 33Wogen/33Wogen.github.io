@@ -1030,6 +1030,9 @@ section.lazy-placeholder:after {
 .cid-s4ZD2EsIPi .dropdown-item:hover {
   color: #ffffff !important;
 }
+.cid-s4ZD2EsIPi a:hover.nav-link {
+  text-decoration: underline;
+}
 .cid-s0nNFjOo0V {
   background-image: url("../../../assets/images/20-05-15-wunderkammer-det-1280-1280x581.jpg");
 }
